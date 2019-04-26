@@ -1,0 +1,298 @@
+
+body {	
+	font-family: verdana, sans-serif;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	margin: 0;
+	}
+	
+h1 { 
+	color: #000080;
+	text-align: center;
+	}
+
+h2 { 
+	color: #000080;
+	text-align: left;
+	}
+	
+h3 { 
+	color: #000080;
+	}
+	
+main {
+	background-color: #DCDCDC;
+	margin-left: 15%;
+	margin-right: 15%;
+	padding: 20px;
+	overflow: hidden;
+	margin-bottom: 70px;
+	}
+	
+footer { 
+	font-size: small;
+	background-color: #DCDCDC;
+	margin-bottom: 0px;
+	bottom: 0px;
+	left: 15%;
+	right: 15%;
+	height: 50px;
+	position: fixed;
+	padding: 10px;
+	}
+	
+.logo {
+	text-align: center;
+	margin: 40px;
+	}
+	
+.roundcorner {
+	border-radius: 10px;
+	}
+	
+.imageright {
+	float: right;
+	margin-right: 5%;
+	margin-left: 5%;
+	}
+
+.responsive {
+	width: 50%;
+	height: auto;
+	}
+.all {
+	border: 20px solid #DCDCDC;
+	}
+	
+a {
+	text-decoration: none;
+	}
+	
+#home2 {
+	text-align: center;
+	}
+	
+p {
+	margin-left: 30px;
+	}
+	
+#centerpara {
+	text-align: center;
+	}
+	
+		/* Homepage grid */
+	
+.homepage-grid {
+  font-family: arial;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 640px;
+  padding: 0;
+}
+
+.homepage-grid li {
+  display: inline-block;
+  width: 181px;
+  margin: 0 12px 30px;
+}
+
+
+/* Photo */
+
+.homepage-grid li > a {
+  display: block;
+  text-decoration: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 137px;
+  margin: 0;
+  padding: 0;
+  border: 4px solid #ffffff;
+  outline: 1px solid #d0d0d0;
+  box-shadow: 0 2px 1px #DDD;
+}
+
+.homepage-grid .details {
+  margin-top: 13px;
+}
+
+
+/* Title */
+
+.homepage-grid .details h3 {
+  display: block;
+  font-size: 12px;
+  margin: 0 0 3px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.homepage-grid .details h3 a {
+  color: #303030;
+  text-decoration: none;
+}
+
+.homepage-grid .details .image-author {
+  display: block;
+  color: #717171;
+  font-size: 11px;
+  font-weight: normal;
+  margin: 0;
+}
+
+
+		/*Drawing.html grid*/
+		
+.drawgrid {
+	display: grid;
+	margin: 20px;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	grid-gap: 20px;
+	}
+
+	
+.drawing1 {
+	grid-row: 1 / 2;
+	grid-column: 1 / 2;
+	text-align: center;
+	border: solid #000080 3px;
+	}
+	
+.drawing2 {
+	grid-row: 1 / 2;
+	grid-column: 2 / 3;
+	text-align: center;
+	border: solid #000080 3px;
+	}	
+
+.drawing3 {
+	grid-row: 1 / 2;
+	grid-column: 3 / 4;
+	text-align: center;
+	border: solid #000080 3px;
+	}	
+.drawing4 {
+	grid-row: 2 / 3;
+	grid-column: 1 / 2;
+	text-align: center;
+	border: solid #000080 3px;
+	}
+		
+.drawing5 {
+	grid-row: 2 / 3;
+	grid-column: 2 / 3;
+	text-align: center;
+	margin: auto;
+	border: solid #000080 3px;
+	}
+		
+.drawing6 {
+	grid-row: 2 / 3;
+	grid-column: 3 / 4;
+	text-align: center;
+	border: solid #000080 3px;
+	}
+		
+.drawing7 {
+	grid-row: 3 / 4;
+	grid-column: 1 / 2;
+	text-align: center;
+	border: solid #000080 3px;
+	}
+		
+.drawing8 {
+	grid-row: 3 / 4;
+	grid-column: 2 / 3;
+	text-align: center;
+	border: solid #000080 3px;
+	}
+		
+.drawing9 {
+	grid-row: 3 / 4;
+	grid-column: 3 / 4;
+	text-align: center;
+	border: solid #000080 3px;
+	}
+	
+	
+/* Contact form */
+
+.form {	
+	width: 700px;
+	text-align: left;
+	margin: auto;
+	font-size: 10pt;
+	color: #000080;
+	}
+	
+
+/*photography*/
+
+.photogrid {
+	display: grid;
+	margin: 20px;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	grid-gap: 20px;
+	}
+	
+.street1 {
+	grid-row: 1 / span 2;
+	grid-column: 1 / span 2;
+	text-align: center;
+	}
+	
+.street2 {
+	grid-row: 1 / 2;
+	grid-column: 3 / 4;
+	text-align: center;
+	}	
+
+.street3 {
+	grid-row: 1 / 2;
+	grid-column: 4 / 5;
+	text-align: center;
+	}	
+.street4 {
+	grid-row: 2 / 3;
+	grid-column: 3 / 4;
+	text-align: center;
+	}
+		
+.street5 {
+	grid-row: 2 / 3;
+	grid-column: 4 / 5;
+	text-align: center;
+	}
+	
+.studio1 {
+	grid-row: 3 / 4;
+	grid-column: 1 / 2;
+	text-align: center;
+	}
+	
+.studio2 {
+	grid-row: 3 / 4;
+	grid-column: 2 / 3;
+	text-align: center;
+	}	
+
+.studio3 {
+	grid-row: 3 / 5;
+	grid-column: 3 / 5;
+	text-align: center;
+	}	
+.studio4 {
+	grid-row: 4 / 5;
+	grid-column: 1 / 2;
+	text-align: center;
+	}
+		
+.studio5 {
+	grid-row: 4 / 5;
+	grid-column: 2 / 3;
+	text-align: center;
+	}

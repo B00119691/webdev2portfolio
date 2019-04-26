@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+	<html lang="en">
+		<html>
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>
+	Pawel Ziobrowski portfolio - Home
+	</title>
+
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+		<link href="css/nav.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+	<header>
+			<body style="background-image:url(images/andromeda.jpg)">
+		<div class="logo">
+			<img src="images/heading.png" alt="Signature Logo" width="450" height="225" class="roundcorner">
+		</div>
+	</header>
+<nav>
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="about.html">About Me</a></li>
+		<li><a href="drawing.html">Drawings</a></li>
+		<li><a href="photography.html">Photography</a>
+
+			<ul>
+				<li><a href="photography.html#studio">Studio</a></li>
+				<li><a href="photography.html#street">Street</a></li>
+			</ul>
+		</li>
+
+		<li><a href="photoshop.html">Photoshop</a>
+
+			<ul>
+				<li><a href="photoshop.html#touchup">Touch up</a></li>
+				<li><a href="photoshop.html#other">Other</a></li>
+			</ul>
+		</li>
+		<li><a href="contact.html">&gt;Contact&lt;</a></li>
+	</ul>
+</nav>
+
+
+<main>
+	<br><br><br><br>
+	<hr>
+		<h1>Need to contact me? This is the page to do it</h1>
+
+		<h2 id="home2">Fill out the form and I'll get back to you ASAP.</h2>
+<br><br>
+
+	<div class="form">
+<form action="order.php" method="GET">
+<div class="formone">
+		<fieldset><legend><b>Your information</b></legend>
+	<p><b>Name: </b><br><input type="text" name="name" required placeholder="First + Last"></p>
+	<p><b>Address: </b><br><textarea name="address" rows="5" cols="30" required placeholder="Name
+Address Line 1
+Address Line 2
+Address Line 3
+	"></textarea></p>
+	<p><b>Email: </b><br><input type="email" name="email" required placeholder="example@email.com"></p>
+	<p><b>Phone number: </b><br><input type="tel" name="phone" required placeholder="000-000-0000"></p>
+		</fieldset>
+	</div>
+	<div class="formtwo">
+		<fieldset><legend><b>What do you need from me?</b></legend>
+		<p><b>Select reason for contacting me</b><br>
+		<select name="reason" multiple>
+			<option>Job offer</option>
+			<option>Complaint</option>
+			<option>Just for fun</option>
+			<option>Other</option>
+		</select>
+	</p>
+	<p><b>How urgent is the message?</b></p>
+		<ol>
+			<li><input type="radio" name="urgency" value="very">Very</li>
+			<li><input type="radio" name="urgency" value="kind of">Kind of</li>
+			<li><input type="radio" name="urgency" value="not really">Not really</li>
+	</ol>
+	<p><b>Your favourite pizza?</b></p>
+		<ul>
+			<li><input type="checkbox" name="pizza" value="margherita">Margherita</li>
+			<li><input type="checkbox" name="pizza" value="pepperoni">Pepperoni</li>
+			<li><input type="checkbox" name="pizza" value="hawaiian">Hawaiian</li>
+			<li><input type="checkbox" name="pizza" value="hammushroom">Ham &amp; Mushroom</li>
+		</ul>
+			<p><b>Your message: </b><br><textarea name="message" rows="7" cols="40" required placeholder="Type your message here
+	"></textarea></p>
+	</fieldset>
+	<input type="Submit">
+	<input type="reset" value="Reset">
+	</div>
+</form>
+	</div>
+
+</main>
+
+<footer>
+	<br>&copy; Copyright me 2019
+</footer>
+
+</body>
+</html>

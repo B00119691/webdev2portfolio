@@ -1,0 +1,48 @@
+nav {
+	text-align: center;
+	margin-right: 15%;
+	margin-left: 15%;
+	}
+
+nav ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+  	display: flex;
+	}
+	
+nav ul li {
+	flex: 1;
+	height: 40px;
+	background-color: #DCDCDC;
+	line-height: 40px;
+	text-align: center;
+	font-size: 14px;
+	border: solid #000080 3px;
+	font-weight: bold;
+	}
+	
+nav ul li ul {
+	flex-direction: column;
+	}
+	
+nav ul li a {
+	text-decoration: none;
+	color: #000080;
+	display: block;
+	position: relative;
+	}
+	
+nav ul li a:hover {
+	background-color: #000080;
+	color: lightgray
+	}
+	
+nav ul li ul li {
+	display: none;
+	position: relative;
+	}
+	
+nav ul li:hover ul li {
+	display: block;
+	}

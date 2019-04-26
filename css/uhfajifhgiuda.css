@@ -1,0 +1,51 @@
+
+nav {
+	margin: auto;
+	width: 1500px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+    overflow: hidden;
+}
+
+
+nav ul li {
+    float: left;
+}
+
+
+
+nav ul li a:link, nav a:visited{
+    display: block;
+    width: 200px;
+    height: 20px;
+    font-weight: bold;
+    color: darkred;
+    background-color: lightgray;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 3px solid darkred;
+}
+
+nav a:hover, nav a:active {
+    background-color: darkred;
+    color: lightgray;
+}
+
+nav ul li ul li {
+	display: none;
+	}
+	
+nav ul li:hover ul li {
+	display: inline-block;
+	}
+	
+nav ul li ul li a:hover, nav a:active {
+    background-color: darkred;
+    color: lightgray;
+}
